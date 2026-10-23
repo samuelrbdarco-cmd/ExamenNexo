@@ -1,0 +1,44 @@
+body {
+ background-color: black;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    margin-right: 70%;
+}
+
+button {
+    border-radius: 5px;
+    align-items: center;
+}
+
+.introducir_datos{
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.Caja {
+    border-style: dashed;
+    border-color: gray;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border-width: 3px;
+}
+
+.caja_siguiente {
+    background-color: gray;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+
+#CajaInformacionCorrecta {
+    background-color: gray;
+    border-radius: 15px;
+    padding: 20px 40px;
+}

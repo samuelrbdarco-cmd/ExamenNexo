@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen_1</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+    <h1>Bienvenido al NeXo 🤖</h1>
+    <form id="NexoPrincipal">
+        <fieldset class="Caja">
+            <div id="CajaUsuario" class="caja_siguiente">
+                <p>Bienvenid@ a nuestro sistema. Necesitamos que te registres en el Nexo para poder atracar tu nave</p>
+                <input type="text" id="texto_usuario" class="introducir_datos" placeholder="Nombre de usuario">
+            </div>
+                <div class="BotonSiguiente">
+                    <button>SIGUIENTE</button>
+                </div>
+        </fieldset>
+
+        <fieldset class="Caja">
+            <div id="CajaCorreo" class="caja_siguiente">
+                <p>Ahora necesitamos un correo electrónico para enviarte el cifrado de tu tarjeta de embarque</p>
+                <input type="email" id="texto_correo" class="introducir_datos" placeholder="Introduce un correo electrónico">
+            </div>
+                <div class="BotonSiguiente">
+                    <button>SIGUIENTE</button>
+                </div>
+        </fieldset>
+
+        <fieldset class="Caja">
+            <div id="CajaContraseña" class="caja_siguiente">
+                <p>Por ultimo, debes cifrar tus datos con una contraseña. No pasa nada, te la enviaremos al correo proporcionado anteriormente</p>
+                <input type="password" id="texto_contraseña" class="introducir_datos" placeholder="Introduce una contraseña">
+            </div>
+                <div class="BotonSiguiente">
+                    <button>SIGUIENTE</button>
+                </div>
+        </fieldset>
+
+        <fieldset class="Caja">
+            <div id="CajaInformacionCorrecta">
+                <p>Vamos a comprobar que todo esté bien introducido en el sistema</p>
+            </div>
+        </fieldset>
+    </form>
+    <script src="script/script.js"></script>
+</body>
+</html>
